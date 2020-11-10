@@ -9,32 +9,32 @@
       let password = document.regForm.password.value;
       let confirmPassword = document.regForm.confirmPassword.value;      
       if(email == ""){
-          showErr("errEmail", "Email is mandatory")
+          showErr("errEmail", "Email is mandatory");
           return false;
       }else{
-          showErr("errEmail", "")
+          showErr("errEmail", "");
       }
       let regEx = new RegExp("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$");
       if(regEx.test(email) == false){
-          showErr("errEmail", "Email is not in a valid format")
+          showErr("errEmail", "Email is not in a valid format");
           return false;
       } else {
-          showErr("errEmail", "")
+          showErr("errEmail", "");
       }
       //password validation
       if(password == "" || password == null){
-          showErr("errPassword", "Password is mandatory")
+          showErr("errPassword", "Password is mandatory");
           return false;
       }else{
-          showErr("errPassword", "")
+          showErr("errPassword", "");
       }
       //email validation    
      
       if(confirmPassword == "" || confirmPassword == null){
-          showErr("errconfirmPassword", "Password is mandatory")
+          showErr("errconfirmPassword", "Password is mandatory");
           return false;
       }else{
-          showErr("errconfirmPassword", "")
+          showErr("errconfirmPassword", "");
       }                          
       return true;//After all the validations are done successfully
   }
