@@ -2,8 +2,8 @@
 
  
 
-|ID|Description|
-|--|-----------|
+|ID|Low Level Requirement Description|High Level Requirement Description|
+|--|-----------|--------------------|
 |HL_01_L_01|Low level 01 – Invoke Visual Studio Code | High level 01 –Creation of HTML file with JavaScript and CSS|
 |HL_02_L_02|Low level 02 – Any browser of choice| High level 02 –launching the created HTML page in the default browser|
 |HL_03_L_03|Low level 03 – Invoke Jasmine framework in VS code| High level 03 – passing of all Suites during test|
